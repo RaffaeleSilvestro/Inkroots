@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="inkroots, tatuaggi">
+    <title>InkRoots</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!--aggiugni Open Graph-->
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/28f0b70266.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <button id="scroll2top" class="paragrafo" onclick="topFunction()"><i class="fa-solid fa-arrow-up"></i></button>
+    <script>
+        let button2top = document.getElementById("scroll2top")
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction(){
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  
+  document.documentElement.scrollTop = 0; 
+}
+    </script>
+    <header id="header" class="container-fluid">
+    <div id="logo" class="d-block "><img src="img/InkRoots.svg" alt=""></div>
+    <span></span>
+    <nav id="navDesk">
+        <div class="d-md-block d-none">
+            <ul>
+                <li><a class="text-hover" href="storia.html">Storia</a></li>
+                <li><a href="caratteristiche.html">Caratteristiche</a></li>
+                <li><a href="galleria.html">Galleria</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
